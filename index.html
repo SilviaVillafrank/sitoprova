@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it" style="height:100%;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagina con Tre Div</title>
+<script type="text/javascript">
+  function logMessage() {
+    console.log("richiamato");
+  }
+</script>
+</head>
+<body style="height:100%; margin:0;">
+
+<div id="div1" style="width:100%; height:100%; background-color:red; position:relative;">
+  <img src="Diapositiva1.jpg" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
+  <a href="#div2" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" onclick="logMessage()"><button>Avanti</button></a>
+</div>
+
+<div id="div2" style="width:100%; height:100%; background-color:green; position:relative;">
+  <img src="Diapositiva2.jpg" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
+  <a href="#div3" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" onclick="logMessage()"><button>Avanti</button></a>
+</div>
+
+<div id="div3" style="width:100%; height:100%; background-color:blue; position:relative;">
+  <img src="Diapositiva3.jpg" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
+  <a href="#div4" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" onclick="logMessage()"><button>Avanti</button></a>
+</div>
+
+<div id="div4" style="width:100%; height:100%; background-color:red; position:relative;">
+    <video src="video1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
+    <a href="#div5" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" onclick="logMessage()"><button>Avanti</button></a>
+  </div>
+  
+  <div id="div5" style="width:100%; height:100%; background-color:green; position:relative;">
+    <video src="video2.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
+    <a href="#div6" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" onclick="logMessage()"><button>Avanti</button></a>
+  </div>
+  
+  <div id="div6" style="width:100%; height:100%; background-color:blue; position:relative;">
+    <video src="video3.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
+    <a href="#div1" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" onclick="logMessage()"><button>Avanti</button></a>
+  </div>
+
+</body>
+</html>
+
