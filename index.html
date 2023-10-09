@@ -6,475 +6,598 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="div.css">
   <title>Slide RFI</title>
-  <script type="text/javascript">
+  <!--<script type="text/javascript">
     function logMessage() {
       console.log("richiamato");
     }
-  </script>
+  </script>-->
 </head>
 
 <body style="height:100%; margin:0;">
   <div id="div1" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva1.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
-    <a href="#div1" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    <a href="#div1" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
+      <button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
+      <button id="next-button" onclick="goToNext()">AVANTI</button></a>
   </div>
 
   <div id="div2" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva2.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div2" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
+      <button id="next-button" onclick="goToNext()">AVANTI</button></a>
   </div>
 
   <div id="div3" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva3.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
-    <a href="#div3" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    <a href="#div3" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
+      <button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
+      <button id="next-button" onclick="goToNext()">AVANTI</button></a>
   </div>
 
   <div id="div4" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva4.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
-    <a href="#div4" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    <a href="#div4" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div5" style="width:100%; height:100%; background-color:white; position:relative;"> 
     <img src="DEVMAN980/Diapositiva5.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div5" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div6" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva6.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div6" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div7" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva7.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div7" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div8" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva8.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div8" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div9" style="width:100%; height:100%; background-color:white; position:relative;">
-    <img src="DEVMAN980/Diapositiva9.JPG" style="width:100%; height:100%; background-color:blue; position:relative;"
+    <img src="DEVMAN980/Diapositiva9.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div9" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div10" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva10.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div10" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div11" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva11.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div11" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div12" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva12.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div12" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
   <div id="div13" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva13.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div13" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div14" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva14.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div14" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div15" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva15.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div15" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div16" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva16.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div16" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div17" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva17.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div17" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div18" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva18.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div18" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div19" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva19.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div19" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div20" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva20.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div20" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div21" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva21.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div21" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div22" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva22.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div22" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div23" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva23.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div23" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div24" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva24.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div24" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div25" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva25.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div25" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div26" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva26.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div26" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div27" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva27.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div27" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div28" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva28.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div28" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div29" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva29.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div29" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div30" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva30.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div30" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div31" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva31.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div31" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div32" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva32.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div32" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div33" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva33.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div33" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div34" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva34.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div34" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div35" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva35.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div35" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div36" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva36.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div36" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
+
   <div id="div37" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva37.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div37" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+      onclick="logMessage()">
+      <button id="prev-button">INDIETRO</button>
+      <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div38" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S1</h1>
+    <h1 class="video-title">Scartamento S1</h1>
     <video src="videoconvert/S1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">Lo Scartamento è la minima distanza, in mm, fra i fianchi attivi dei funghi delle due rotaie, misurata dal piano di rotolamento fino a 14mm sotto di esso. 
+    <p class="video-description">Lo Scartamento è la minima distanza, in mm, fra i fianchi attivi dei funghi delle due rotaie, misurata dal piano di rotolamento fino a 14mm sotto di esso. 
       S1 si misura alla giunzione di ingresso del telaio degli aghi o a 1 metro dalla punta degli aghi.</p>
     <a href="#div38" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div39" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S2</h1>
+    <h1  class="video-title">Scartamento S2</h1>
     <video src="videoconvert/S2.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">S2 si misura in corrispondenza della punta reale degli aghi.</p>
+    <p class="video-description">S2 si misura in corrispondenza della punta reale degli aghi.</p>
     <a href="#div39" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div40" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S3</h1>
+    <h1 class="video-title">Scartamento S3</h1>
     <video src="videoconvert/S3.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">S3 si misurano in corrispondenza del contatto funghi ago-contrago o alla fine della lavorazione del contrago.</p>
+    <p class="video-description">S3 si misurano in corrispondenza del contatto funghi ago-contrago o alla fine della lavorazione del contrago.</p>
     <a href="#div40" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div41" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S4</h1>
+    <h1  class="video-title">Scartamento S4</h1>
     <video src="videoconvert/S4.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">S4 si misurano in corrispondenza del contatto funghi ago-contrago o alla fine della lavorazione del contrago.</p>
+    <p class="video-description">S4 si misurano in corrispondenza del contatto funghi ago-contrago o alla fine della lavorazione del contrago.</p>
     <a href="#div41" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div42" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S5</h1>
+    <h1  class="video-title">Scartamento S5</h1>
     <video src="videoconvert/S5.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">S5 si misurano in corrispondenza della prima piastra speciale  della parte fissa del telaio degli aghi.</p>
+    <p class="video-description">S5 si misurano in corrispondenza della prima piastra speciale  della parte fissa del telaio degli aghi.</p>
     <a href="#div42" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div43" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S6</h1>
+    <h1  class="video-title">Scartamento S6</h1>
     <video src="videoconvert/S6.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">S6 si misurano in corrispondenza della prima piastra speciale  della parte fissa del telaio degli aghi.</p>
+    <p class="video-description">S6 si misurano in corrispondenza della prima piastra speciale  della parte fissa del telaio degli aghi.</p>
     <a href="#div43" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div44" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S7</h1>
+    <h1  class="video-title">Scartamento S7</h1>
     <video src="videoconvert/S7.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">S7 si misurano a 100mm dalla punta reale del cuore.</p>
+    <p class="video-description">S7 si misurano a 100mm dalla punta reale del cuore.</p>
     <a href="#div44" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div45" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Scartamento S8</h1>
+    <h1 class="video-title">Scartamento S8</h1>
     <video src="videoconvert/S8.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">S8 si misurano a 100mm dalla punta reale del cuore.</p>
+    <p class="video-description">S8 si misurano a 100mm dalla punta reale del cuore.</p>
     <a href="#div45" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div46" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota passaggio aghi QPA1</h1>
+    <h1 class="video-title">Quota passaggio aghi QPA1</h1>
     <video src="videoconvert/QPA1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">Per quote si intende le distanze, in mm, misurate sia sul ramo principale che sul secondario, dal piano di rotolamento fino a 14mm sotto di esso, che, a seconda del punto di misura sull’apparecchio di binario si suddividono in QPA, QIC, QIZ, QLP, QP. 
+    <p class="video-description">Per quote si intende le distanze, in mm, misurate sia sul ramo principale che sul secondario, dal piano di rotolamento fino a 14mm sotto di esso, che, a seconda del punto di misura sull’apparecchio di binario si suddividono in QPA, QIC, QIZ, QLP, QP. 
       QPA quota passaggio aghi, si misura tra il fianco attivo dell’ago in posizione accosta e il fianco non attivo dell’ago in posizione discosta nel punto in cui termina la lavorazione dell’ago.</p>
     <a href="#div46" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div47" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota passaggio aghi QPA2</h1>
+    <h1  class="video-title">Quota passaggio aghi QPA2</h1>
     <video src="videoconvert/QPA2.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QPA quota passaggio aghi, si misura tra il fianco attivo dell’ago in posizione accosta e il fianco non attivo dell’ago in posizione discosta nel punto in cui termina la lavorazione dell’ago.</p>
+    <p class="video-description">QPA quota passaggio aghi, si misura tra il fianco attivo dell’ago in posizione accosta e il fianco non attivo dell’ago in posizione discosta nel punto in cui termina la lavorazione dell’ago.</p>
     <a href="#div47" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div48" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota ingresso della controrotaia QIC1</h1>
+    <h1 class="video-title">Quota ingresso della controrotaia QIC1</h1>
     <video src="videoconvert/QIC1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QIC quota ingresso della controrotaia, si misura a 100mm dalle estremità di ingresso della controrotaia: QIC1 tra i fianchi attivi della controrotaia e il fianco attivo della rotaia affacciata</p>
+    <p class="video-description">QIC quota ingresso della controrotaia, si misura a 100mm dalle estremità di ingresso della controrotaia: QIC1 tra i fianchi attivi della controrotaia e il fianco attivo della rotaia affacciata</p>
     <a href="#div48" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div49" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota ingresso della controrotaia QIC3</h1>
+    <h1  class="video-title">Quota ingresso della controrotaia QIC3</h1>
     <video src="videoconvert/QIC3.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QIC quota ingresso della controrotaia, si misura a 100mm dalle estremità di ingresso della controrotaia: QIC3 tra i fianchi attivi della controrotaia e il cuore.</p>
+    <p class="video-description">QIC quota ingresso della controrotaia, si misura a 100mm dalle estremità di ingresso della controrotaia: QIC3 tra i fianchi attivi della controrotaia e il cuore.</p>
     <a href="#div49" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div50" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota ingresso della controrotaia QIC4</h1>
+    <h1  class="video-title">Quota ingresso della controrotaia QIC4</h1>
     <video src="videoconvert/QIC4.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QIC quota ingresso della controrotaia, si misura a 100mm dalle estremità di ingresso della controrotaia: QIC4 tra i fianchi attivi della controrotaia e il cuore.</p>
+    <p class="video-description">QIC quota ingresso della controrotaia, si misura a 100mm dalle estremità di ingresso della controrotaia: QIC4 tra i fianchi attivi della controrotaia e il cuore.</p>
     <a href="#div50" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div51" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota ingresso della zampa di lepre QIZ1</h1>
+    <h1 class="video-title">Quota ingresso della zampa di lepre QIZ1</h1>
     <video src="videoconvert/QIZ1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QIZ quota ingresso della zampa di lepre, si misura a 100 mm dall’estremità di ingresso della zampa di lepre tra i fianchi attivi della zampa di lepre e il fianco attivo  della rotaia affacciata.</p>
+    <p class="video-description">QIZ quota ingresso della zampa di lepre, si misura a 100 mm dall’estremità di ingresso della zampa di lepre tra i fianchi attivi della zampa di lepre e il fianco attivo  della rotaia affacciata.</p>
     <a href="#div51" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div52" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota ingresso della zampa di lepre QIZ2</h1>
+    <h1 class="video-title">Quota ingresso della zampa di lepre QIZ2</h1>
     <video src="videoconvert/QIZ2.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QIZ quota ingresso della zampa di lepre, 
+    <p class="video-description">QIZ quota ingresso della zampa di lepre, 
       si misura a 100 mm dall’estremità di ingresso della zampa di lepre tra i fianchi attivi della zampa di lepre e il fianco attivo  della rotaia affacciata.</p>
     <a href="#div52" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div53" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota di libero passaggio QLP1</h1>
+    <h1  class="video-title">Quota di libero passaggio QLP1</h1>
     <video src="videoconvert/QLP1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QLP quota di libero passaggio, si misura tra il fianco attivo della controrotaia e il fianco attivo della zampa di lepre in un punto compreso tra 100mm dalla punta reale del cuore e la sezione dove la punta del cuore ha uno spessore di 58mm.</p>
+    <p class="video-description">QLP quota di libero passaggio, si misura tra il fianco attivo della controrotaia e il fianco attivo della zampa di lepre in un punto compreso tra 100mm dalla punta reale del cuore e la sezione dove la punta del cuore ha uno spessore di 58mm.</p>
     <a href="#div53" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div54" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota di libero passaggio QLP2</h1>
+    <h1  class="video-title">Quota di libero passaggio QLP2</h1>
     <video src="videoconvert/QLP2.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QLP quota di libero passaggio, si misura tra il fianco attivo della controrotaia e il fianco attivo della zampa di lepre in un punto compreso tra 100mm dalla punta reale del cuore e la sezione dove la punta del cuore ha uno spessore di 58mm.</p>
+    <p class="video-description">QLP quota di libero passaggio, si misura tra il fianco attivo della controrotaia e il fianco attivo della zampa di lepre in un punto compreso tra 100mm dalla punta reale del cuore e la sezione dove la punta del cuore ha uno spessore di 58mm.</p>
     <a href="#div54" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div55" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota di protezione QP1</h1>
+    <h1  class="video-title">Quota di protezione QP1</h1>
     <video src="videoconvert/QP1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QP quota di protezione, si misura tra il fianco attivo della controrotaia e la punta del cuore ad una distanza di 100mm dalla punta reale del cuore.</p>
+    <p class="video-description">QP quota di protezione, si misura tra il fianco attivo della controrotaia e la punta del cuore ad una distanza di 100mm dalla punta reale del cuore.</p>
     <a href="#div55" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div56" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Quota di protezione QP2</h1>
+    <h1 class="video-title">Quota di protezione QP2</h1>
     <video src="videoconvert/QP2.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">QP quota di protezione, si misura tra il fianco attivo della controrotaia e la punta del cuore ad una distanza di 100mm dalla punta reale del cuore.</p>
+    <p class="video-description">QP quota di protezione, si misura tra il fianco attivo della controrotaia e la punta del cuore ad una distanza di 100mm dalla punta reale del cuore.</p>
     <a href="#div56" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div57" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Gola A1</h1>
+    <h1  class="video-title">Gola A1</h1>
     <video src="videoconvert/A1.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">Le gole rappresentano la minima distanza espressa in mm, misurata dal piano di rotolamento fino a 14 mm sotto di esso, sia sul ramo principale che secondario. 
+    <p class="video-description">Le gole rappresentano la minima distanza espressa in mm, misurata dal piano di rotolamento fino a 14 mm sotto di esso, sia sul ramo principale che secondario. 
       A1 si misurano prendendo l’apertura tra ago e contrago.</p>
     <a href="#div57" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div58" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Gola A2</h1>
+    <h1 class="video-title">Gola A2</h1>
     <video src="videoconvert/A2.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">A2 si misurano prendendo l’apertura tra ago e contrago.</p>
+    <p class="video-description">A2 si misurano prendendo l’apertura tra ago e contrago.</p>
     <a href="#div58" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div59" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Gola A3</h1>
+    <h1 class="video-title">Gola A3</h1>
     <video src="videoconvert/A3.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">A3 si misurano tra controrotaia e rotaia unita alla controrotaia.</p>
+    <p class="video-description">A3 si misurano tra controrotaia e rotaia unita alla controrotaia.</p>
     <a href="#div59" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div60" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Gola A4</h1>
+    <h1 class="video-title">Gola A4</h1>
     <video src="videoconvert/A4.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">A4 si misurano tra controrotaia e rotaia unita alla controrotaia.</p>
+    <p class="video-description">A4 si misurano tra controrotaia e rotaia unita alla controrotaia.</p>
     <a href="#div60" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
   
   <div id="div61" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Gola A5</h1>
+    <h1 class="video-title">Gola A5</h1>
     <video src="videoconvert/A5.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">A5 si misurano tra zampa di lepre e punta del cuore.</p>
+    <p class="video-description">A5 si misurano tra zampa di lepre e punta del cuore.</p>
     <a href="#div61" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
   <div id="div62" style="width:100%; height:100%; background-color:white; position:relative;">
-    <h1  id="video-title">Gola A6</h1>
+    <h1 class="video-title">Gola A6</h1>
     <video src="videoconvert/A6.mp4" style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" controls></video>
-    <p id="video-description">A6 si misurano tra zampa di lepre e punta del cuore.</p>
+    <p class="video-description">A6 si misurano tra zampa di lepre e punta del cuore.</p>
     <a href="#div62" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" 
-    onclick="logMessage()"><button id="next-button">AVANTI</button></a>
+    onclick="logMessage()">
+    <button id="prev-button">INDIETRO</button>
+    <button id="next-button">AVANTI</button></a>
   </div>
 
+  <script src="div.js"></script>
 </body>
 
 </html>

@@ -12,13 +12,27 @@
     margin-bottom: 50px;
 }
 
-#video-title {
+#prev-button {
+    background-color: #006558;
+    color: #EDEDED;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 50px;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    margin-right: auto;
+    margin-top: 1000px;
+    margin-bottom: 50px;
+}
+
+.video-title {
     color: #CD0033;
     font-size: 50px;
     text-align:center;
 }
 
-#video-description {
+.video-description {
     font-size: 23px;
     text-align: center;
 }
