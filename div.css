@@ -1,0 +1,13 @@
+#next-button {
+    background-color: #006558;
+    color: #EDEDED;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    margin-left: auto;
+    margin-top: 1000px;
+    margin-bottom: 50px;
+}
