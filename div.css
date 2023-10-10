@@ -7,9 +7,9 @@
     cursor: pointer;
     font-size: 22px;
     display: flex;
-    margin-left: auto;
+    margin-left: 700px;
     margin-top: 1000px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #prev-button {
@@ -21,9 +21,9 @@
     cursor: pointer;
     font-size: 22px;
     display: flex;
-    margin-right: auto;
+    margin-right: 600px;
     margin-top: 1000px;
-    margin-bottom: 50px;
+    margin-bottom: -1070px;
 }
 
 .button-container {
@@ -39,4 +39,10 @@
 .video-description {
     font-size: 23px;
     text-align: center;
+}
+
+#page-counter {
+    color: #CD0033;
+    font-size: 30px;
+    text-align:center;
 }
