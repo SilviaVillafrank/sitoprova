@@ -24,16 +24,16 @@ function updatePageCounter() {
 function goToNext() {
     if (currentPageIndex < document.querySelectorAll('.video-container.active').length - 1) {
         currentPageIndex++;
-        updatePageCounter();
     }
+    updatePageCounter();
 }
 
 // Funzione per tornare all'elemento precedente
 function goToPrevious() {
     if (currentPageIndex > 0) {
         currentPageIndex--;
-        updatePageCounter();
     }
+    updatePageCounter();
 }
 
 // Chiamate iniziali per impostare il numero di pagina corrente
