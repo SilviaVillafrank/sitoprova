@@ -15,16 +15,17 @@
 
 <body style="height:100%; margin:0;">
     <!-- Elemento per visualizzare il numero di pagina -->
-    <div id="page-counter">1/62</div>
 
-    <!-- Pulsanti "Avanti" e "Indietro" fuori dai div -->
-    <button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
-    <button id="next-button" onclick="goToNext()">AVANTI</button>
 
   <div id="div1" class="video-container active" style="width:100%; height:100%; background-color:white; position:relative;">
     <img src="DEVMAN980/Diapositiva1.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
-    <a href="#div1" class="button-container" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"></a>
+    <a href="#div1" class="button-container" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
+      <div id="page-counter">1/62</div>
+
+      <!-- Pulsanti "Avanti" e "Indietro" fuori dai div -->
+      <button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
+      <button id="next-button" onclick="goToNext()">AVANTI</button></a>
      <!--<button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
       <button id="next-button" onclick="goToNext()">AVANTI</button>
       <div id="page-counter">1/62</div>-->
@@ -34,7 +35,13 @@
     <img src="DEVMAN980/Diapositiva2.JPG"
       style="width:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); object-fit:cover;">
     <a href="#div2" class="button-container" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
-      onclick="logMessage()"></a>
+      onclick="logMessage()">
+      
+
+      <!-- Pulsanti "Avanti" e "Indietro" fuori dai div -->
+      <button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
+      <button id="next-button" onclick="goToNext()">AVANTI</button></a>
+      <div id="page-counter">2/62</div>
      <!--<button id="prev-button" onclick="goToPrevious()">INDIETRO</button>
       <button id="next-button" onclick="goToNext()">AVANTI</button>
       <div id="page-counter">2/62</div>-->
@@ -604,7 +611,7 @@
     <div id="page-counter">62/62</div>--> 
   </div>
 
-  <script src="div.js"></script>
+  <script src="divslide.js"></script>
 </body>
 
 </html>
