@@ -1,4 +1,4 @@
-#next-button {
+/*#next-button {
     background-color: #006558;
     color: #EDEDED;
     border: none;
@@ -8,9 +8,9 @@
     font-size: 22px;
     display: flex;
     margin-left: 700px;
-    margin-top: 1000px;
+    /*margin-top: 1000px;
     margin-bottom: 100px;
-}
+} 
 
 #prev-button {
     background-color: #006558;
@@ -21,10 +21,31 @@
     cursor: pointer;
     font-size: 22px;
     display: flex;
-    margin-right: 600px;
-    margin-top: 1000px;
+    margin-right: 300px;
+    /*margin-top: 1000px;
     margin-bottom: 100px;
+}*/
+
+.next-button,
+.prev-button {
+  background-color: #006558;
+  color: #EDEDED;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 50px;
+  cursor: pointer;
+  font-size: 22px;
+  display: inline-block;
+  margin-left: 213px;
+  margin-right: 20px; /* Aggiunto margine tra i pulsanti */
+  margin-bottom: 20px; /* Aggiunto margine sotto i pulsanti */
+  margin-top: 770px;
 }
+
+.button-container {
+  text-align: center;
+}
+
 
 .button-container {
     text-align: center;
