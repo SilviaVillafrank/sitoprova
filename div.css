@@ -1,33 +1,6 @@
-/*#next-button {
-    background-color: #006558;
-    color: #EDEDED;
-    border: none;
-    border-radius: 10px;
-    padding: 20px 50px;
-    cursor: pointer;
-    font-size: 22px;
-    display: flex;
-    margin-left: 700px;
-    /*margin-top: 1000px;
-    margin-bottom: 100px;
-} 
-
-#prev-button {
-    background-color: #006558;
-    color: #EDEDED;
-    border: none;
-    border-radius: 10px;
-    padding: 20px 50px;
-    cursor: pointer;
-    font-size: 22px;
-    display: flex;
-    margin-right: 300px;
-    /*margin-top: 1000px;
-    margin-bottom: 100px;
-}*/
-
 .next-button,
-.prev-button {
+.prev-button,
+.demo-button {
   background-color: #006558;
   color: #EDEDED;
   border: none;
@@ -43,7 +16,8 @@
 }
 
 .next-button1,
-.prev-button1 {
+.prev-button1,
+.demo-button1 {
   background-color: #006558;
   color: #EDEDED;
   border: none;
