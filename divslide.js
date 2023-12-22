@@ -1,11 +1,6 @@
 let currentPage = 1; // Pagina corrente
 const totalPages = 5; // Numero totale di pagine
 
- 
-  function goToDiv(page) {
-    showPage(page);
-  }
-
   function goToPrevious(page) {
     if (page > 1) {
       showPage(page - 1);
