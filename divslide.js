@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     updatePreview();
   }
 
-function goToDiv(divNumber) {
-  showPage(divNumber);
+function goToDiv(pageNumber) {
+  showPage(pageNumber);
 }
 
 function goToPrevious(page) {
