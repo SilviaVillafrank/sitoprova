@@ -1,5 +1,17 @@
-let currentPage = 1; // Pagina corrente
-const totalPages = 5; // Numero totale di pagine
+document.addEventListener('DOMContentLoaded', function () {
+  let currentPage = 1; // Pagina corrente
+  const totalPages = 4; // Numero totale di pagine
+
+  function showPage(pageNumber) {
+    document.querySelectorAll('.video-container').forEach(page => {
+      page.classList.remove('active');
+    });
+
+    document.getElementById(`div${pageNumber}`).classList.add('active');
+
+    currentPage = pageNumber;
+    updatePreview();
+  }
 
 function goToDiv(divNumber) {
   showPage(divNumber);
@@ -17,6 +29,20 @@ function goToNext(page) {
   }
 }
 
+function updatePreview() {
+  const previewImages = document.querySelectorAll('.image-item');
+
+  previewImages.forEach((image, index) => {
+    image.classList.remove('active');
+    if (index + 1 === currentPage) {
+      image.classList.add('active');
+    }
+  });
+}
+
+// Inizializza l'anteprima
+updatePreview();
 
 // Mostra la prima pagina inizialmente
 showPage(currentPage);
+});
