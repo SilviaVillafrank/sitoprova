@@ -61,11 +61,13 @@
 .image-item {
   height: 300px;
   width: 300px;
+  cursor: pointer;
 }
 
 .vid-item{
   height: 300px;
   width:300px;
+  cursor: pointer;
 }
 
 .div-list{
