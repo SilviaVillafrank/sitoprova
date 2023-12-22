@@ -13,9 +13,10 @@ document.addEventListener('DOMContentLoaded', function () {
     updatePreview();
   }
 
-function goToDiv(pageNumber) {
-  showPage(pageNumber);
-}
+  function goToDiv(divId) {
+    showPage(divId.substring(3)); // Rimuove i primi tre caratteri ("div") dall'id
+  }
+  
 
 function goToPrevious(page) {
   if (page > 1) {
