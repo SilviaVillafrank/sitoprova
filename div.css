@@ -57,3 +57,23 @@
     font-size: 30px;
     text-align:center;
 }
+
+.container{
+  max-width: 1200px;
+  width: 95%;
+}
+
+.slider-wrapper .div-list {
+  display: grid;
+  gap: 18px;
+  font-size: 0;
+  overflow-x: auto;
+  scrollbar-width: none; 
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.slider-wrapper .div-list .vid-item {
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+}
