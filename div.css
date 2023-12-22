@@ -80,7 +80,7 @@
   gap: 20px;
   overflow-x: auto;
   scrollbar-width: none; 
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(100, 1fr);
 }
 
 .slider-wrapper .div-list .image-item .vid-item {
