@@ -58,15 +58,24 @@
     text-align:center;
 }
 
-.container{
+.image-item {
+  height: 300px;
+  width: 300px;
+}
+
+.vid-item{
+  height: 300px;
+  width:300px;
+}
+
+.div-list{
   max-width: 1200px;
   width: 95%;
 }
 
 .slider-wrapper .div-list {
   display: grid;
-  gap: 18px;
-  font-size: 0;
+  gap: 20px;
   overflow-x: auto;
   scrollbar-width: none; 
   grid-template-columns: repeat(10, 1fr);
