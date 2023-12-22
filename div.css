@@ -72,7 +72,7 @@
   grid-template-columns: repeat(10, 1fr);
 }
 
-.slider-wrapper .div-list .vid-item {
+.slider-wrapper .div-list .image-item .vid-item {
   width: 325px;
   height: 400px;
   object-fit: cover;
